@@ -1,0 +1,22 @@
+h1{
+  font-family: cursive;
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-style: italic;
+  text-align:center;
+  color: rgb(148, 22, 64); 
+
+}
+
+h2{
+  font-family: cursive;
+  font-size: 2rem;
+  font-style: italic;
+  text-align:center;
+  color: rgb(160, 65, 96); 
+}
+
+nav{
+  justify-content: space-around;
+  display: flex;
+}
