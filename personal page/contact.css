@@ -16,7 +16,10 @@ h2{
   color: rgb(160, 65, 96); 
 }
 
-nav{
-  justify-content: space-around;
-  display: flex;
+h5{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  font-style: italic;
+  text-align:center;
+  color: rgb(48, 45, 202); 
 }

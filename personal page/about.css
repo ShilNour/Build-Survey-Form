@@ -20,3 +20,14 @@ nav{
   justify-content: space-around;
   display: flex;
 }
+
+p {
+  padding: 2rem; 
+  margin: 1rem;
+  text-align:center;
+  background-color: rgb(214, 122, 165);
+  color: black;
+  border: 6px solid black;
+  border-radius: 7px;
+  font-size: 1.5rem;
+}
