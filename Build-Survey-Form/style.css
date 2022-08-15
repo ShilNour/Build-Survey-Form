@@ -5,7 +5,7 @@ body {
   line-height: 1.4;
   color: var(--color-white);
   margin: 0;
-  background-color: rgb(160, 240, 240);
+  background-color: rgb(179, 37, 103);
 }
 
 h1 {
@@ -48,9 +48,10 @@ button {
 
 .container {
   width: 40rem;
-  margin: 3.125rem auto 0 auto;
+  margin: 5rem auto 5rem auto;
   border:1px solid black;
   border-radius: 0.1rem solid;
+  background-color: aqua;
 }
 
 .header {
@@ -73,5 +74,14 @@ button {
   padding: 0 1rem 0 1rem;
 }
 
+.submit-button {
+  display: block;
+  width: 60%;
+  padding: 0.75rem;
+  background-color: green;
+  color: black;
+  border-radius: 2px;
+  cursor: pointer;
+}
 
 
