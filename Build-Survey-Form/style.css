@@ -51,7 +51,7 @@ button {
   margin: 5rem auto 5rem auto;
   border:1px solid black;
   border-radius: 0.1rem solid;
-  background-color: aqua;
+  background-color: rgb(223, 45, 119);
 }
 
 .header {
@@ -63,7 +63,7 @@ button {
 .form-group {
   margin: 0 auto 1.25rem auto;
   padding: 0.25rem;
-  background-color: lightblue;
+  background-color: rgb(190, 105, 152);
   display: flex;
 }
 
