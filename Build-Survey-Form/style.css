@@ -5,7 +5,8 @@ body {
   line-height: 1.4;
   color: var(--color-white);
   margin: 0;
-  background-color: rgb(179, 37, 103);
+  background-color: rgb(247, 238, 242);
+  background-image: url(https://www.pngmart.com/files/15/Feedback-Transparent-Background.png);
 }
 
 h1 {
