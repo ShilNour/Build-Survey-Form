@@ -28,4 +28,57 @@ body {
   line-height: 1.5;
 }
 
+p {
+  font-size: 1.45rem;
+}
+
+.form-section {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.form-group {
+  font-family: cursive;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: light;
+  line-height: 1.5;
+}
+
+.form-control {
+  margin-left: 3%;
+  height: 2rem;
+  border: 6px;
+  border-radius: 15%;
+}
+
+.comment {
+  min-height: 120px;
+  width: 90%;
+  border-radius: 7%;
+  height: 2rem;
+}
+
+#dropdown {
+  border: 6px;
+  border-radius: 15%;
+  height: 2rem;
+}
+
+.submit-button {
+  cursor: pointer;
+  display: block;
+  padding: 0.50rem;
+  border: 10px;
+  border-radius: 15%;
+  height: 3rem;
+  background-color:rgb(34, 94, 172);
+  width:50%;
+  font-family: cursive;
+  font-size: 1rem;
+  margin-left: 20%;
+  margin-bottom: 1rem;
+} 
+
+
 
