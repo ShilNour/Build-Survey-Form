@@ -75,10 +75,15 @@ p {
   background-color:rgb(34, 94, 172);
   width:50%;
   font-family: cursive;
-  font-size: 1rem;
+  font-size: 1.4rem;
+  color: white;
   margin-left: 20%;
   margin-bottom: 1rem;
 } 
+
+.title1 {
+  padding-top: 2rem;
+}
 
 
 
