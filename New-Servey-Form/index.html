@@ -12,42 +12,42 @@
       <header class="header">
         <h1 class="title">❤️Shilan's English Classes❤️</h1>
         <h2 class="title">Feedback Form</h2>
-        <p>Thank you for your time. Please rememebr to press the submit button.</p>
+        <p class="description">Thank you for your time. Please rememebr to press the submit button.</p>
       </header>
 
       <form id="whole-form">
 
-        <div id="form-section">
+        <div class="form-section">
           <label class="name-lable" required>Name</label>
-          <input/>
+          <input type="text" Name="Name" placeholder="Type your name"/>
         </div>
 
-        <div id="form-section">
+        <div class="form-section">
           <label class="email-lable" required>Email</label>
-          <input/>
+          <input type="text" Name="email" placeholder="Type your email"/>
         </div>
 
-        <div id="form-section">
+        <div class="form-section">
           <label class="level-lable" required>Level</label>
-          <input/>
+          <input type="text" name="level" placeholder="Type your level"/>
         </div>
 
-        <div id="form-section">
+        <div class="form-section">
           <label class="Phone-lable" required>Phone Number</label>
-          <input/>
+          <input name="phone-number" placeholder="Type your phone number"/>
         </div>
 
-        <div id="form-section">
+        <div class="form-section">
           <label class="Age-lable" required>Age</label>
-          <input/>
+          <input type="text" name="age" placeholder="Age" min="18" max="99"/>
         </div>
 
-        <div id="form-section">
+        <div class="form-section">
           <p>How long did you study with Shilan?</p>
           <select id="dropdown" name="months" class="form-section" required>
-            <option>2 months</option>
-            <option>4 months</option>
-            <option>6 months</option>
+            <option value="2-months">2 months</option>
+            <option value="4-months">4 months</option>
+            <option value="6-months">6 months</option>
           </select>
         </div>
 
@@ -78,28 +78,29 @@
           </label>
     
         </div>
-        <div id="form-section">
 
-        <p>How did you hear about Shilan's classes?</p>
-        <label>
-          <input type="radio" class="input-radio"/> Instagram
-        </label>
+        <div class="form-section">
 
-        <label>
-          <input type="radio" class="input-radio"/> Facebook
-        </label>
+          <p>How did you hear about Shilan's classes?</p>
+          <label>
+            <input type="radio" class="input-radio"/> Instagram
+          </label>
 
-        <label>
-          <input type="radio" class="input-radio"/> Friends
-        </label>
+          <label>
+            <input type="radio" class="input-radio"/> Facebook
+          </label>
 
-        <label>
-          <input type="radio" class="input-radio"/> Other
-        </label>
+          <label>
+            <input type="radio" class="input-radio"/> Friends
+          </label>
+
+          <label>
+            <input type="radio" class="input-radio"/> Other
+          </label>
 
         </div>
 
-        <div id="form-section">
+        <div class="form-section">
           <p>Would you recommend Shilan's classes to others?</p>
           <label>
             <input type="radio" class="input-radio"/> Yes
@@ -111,21 +112,21 @@
     
         </div>
 
-        <div id="form-section">
+        <div class="form-section">
           <p>What part of Shilan's teaching did you like?</p>
           <textarea class="comment"></textarea>
         </div>
 
-        <div id="form-section">
+        <div class="form-section">
           <p>What can be improved in Shilan's classes?</p>
           <textarea class="comment"></textarea>
         </div>
       
-        <div id="form-section">
+        <div class="form-section">
           <p> Thank you for filling in this form & please press the submit button.</p>
         </div>
 
-        <div id="form-section">
+        <div class="form-section">
           <button>Submit</button>
         </div>
      </form>
