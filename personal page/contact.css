@@ -1,4 +1,4 @@
-h1{
+.h1style {
   font-family: cursive;
   text-transform: uppercase;
   font-size: 3.5rem;
@@ -8,7 +8,7 @@ h1{
 
 }
 
-h2{
+.h2style {
   font-family: cursive;
   font-size: 2rem;
   font-style: italic;
@@ -16,10 +16,101 @@ h2{
   color: rgb(160, 65, 96); 
 }
 
-h5{
+.h5style {
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.5rem;
   font-style: italic;
   text-align:center;
   color: rgb(48, 45, 202); 
+}
+
+/*My new survey from css*/
+
+@import url('https://fonts.google.com/specimen/Lobster?category=Serif,Display,Handwriting,Monospace');
+
+:root {
+  background-color: white;
+}
+
+body {
+  color:black;
+  background-color: rgb(252, 252, 250);
+  margin: 7%;
+  background-image: url('https://media.istockphoto.com/photos/texture-of-blue-paper-picture-id945663596?b=1&k=20&m=945663596&s=170667a&w=0&h=ioZEeniCrlLb0EcGTn_XOdkbTyWd2ozdYyQuQ2CLGoI=');
+}
+
+#whole-form {
+  position: "fixed";
+  font-family: cursive;
+  font-size: 1.1rem;
+  font-weight: light;
+  line-height: 1.5;
+  margin: 30%;
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+.header {
+  font-family: cursive;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/* p {
+  font-size: 1.45rem;
+} */
+
+.form-section {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.form-group {
+  font-family: cursive;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: light;
+  line-height: 1.5;
+}
+
+.form-control {
+  margin-left: 3%;
+  height: 2rem;
+  border: 6px;
+  border-radius: 15%;
+}
+
+.comment {
+  min-height: 120px;
+  width: 90%;
+  border-radius: 7%;
+  height: 2rem;
+}
+
+#dropdown {
+  border: 6px;
+  border-radius: 15%;
+  height: 2rem;
+}
+
+.submit-button {
+  cursor: pointer;
+  display: block;
+  padding: 0.50rem;
+  border: 10px;
+  border-radius: 15%;
+  height: 3rem;
+  background-color:rgb(34, 94, 172);
+  width:50%;
+  font-family: cursive;
+  font-size: 1.4rem;
+  color: white;
+  margin-left: 20%;
+  margin-bottom: 1rem;
+} 
+
+.title1 {
+  padding-top: 2rem;
 }
